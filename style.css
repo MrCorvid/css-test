@@ -1,6 +1,8 @@
 body {
   display: flex;
+  height: 100vh;
   flex-direction: column;
+  justify-content: space-between;
   border: 0;
   padding: 0;
   margin: 0;
@@ -77,23 +79,43 @@ a {
 
   display: flex;
   flex-direction: column;
+ 
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  margin: 8px;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 920px;
 }
 
 .header ul {
   display: flex;
+  flex-wrap: wrap-reverse;
+  margin-left: auto;
+  gap: 16px;
+  max-width: 400px;
+}
+
+ul li {
+  flex: none;
 }
 
 .logo {
-  
+  flex: none;
+  min-width: 260px;
+  margin-right: auto;
 }
 
 .hero {
+  display: flex;
+}
 
+.left {
+  display: flex;
+  flex-direction: column;
 }
 
 .left .title {
@@ -105,7 +127,8 @@ a {
 }
 
 .left button {
-  
+  max-width: fit-content;
+  flex: none;
 }
 
 .right {
@@ -133,23 +156,23 @@ a {
 }
 
 .coa {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .coa-card {
   background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  height: 96px;
+  max-width: 720px;
+  flex: auto;
 }
 
 .coa-left {
-
-}
-
-.big-text {
-
-}
-
-.little-text {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .coa-right {
@@ -157,5 +180,10 @@ a {
 }
 
 .footer {
+  height: 48px;
+  flex:none;
   background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
