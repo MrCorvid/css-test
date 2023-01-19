@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  color: #F9FAF8;
+  background-color: #3882f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.main-text { 
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.info-header-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info-card-text {
+  color: #1F2937;
+  font-size: 18px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color:#1F2937;
+}
+
+.quote-attr {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.button-one {
+
+}
+
+.button-two {
+  
+}
+
+
+.hero-header {
+  background-color: #1F2937;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul {
+  display: flex;
+}
+
+.logo {
+  
+}
+
+.hero {
+
+}
+
+.left .title {
+  
+}
+
+.left .body {
+  
+}
+
+.left button {
+  
+}
+
+.right {
+
+}
+
+.info {
+
+}
+
+.info-header {
+
+}
+
+.info-cards {
+
+}
+
+.card {
+
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.coa {
+
+}
+
+.coa-card {
+  background-color: #3882f6;
+}
+
+.coa-left {
+
+}
+
+.big-text {
+
+}
+
+.little-text {
+
+}
+
+.coa-right {
+
+}
+
+.footer {
+  background-color: #1F2937;
+}
