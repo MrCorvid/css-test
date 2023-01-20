@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+/* { 
+  border: 1px solid red;
+} /**/
+
 body {
   display: flex;
   height: 100vh;
@@ -117,7 +121,7 @@ BACKGROUND COLORS
 
 
 .hero-header {
-  flex: 1 1 auto;
+  flex: 1;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
@@ -133,23 +137,23 @@ BACKGROUND COLORS
 }
 
 .spacer {
-  flex: 1;
+  flex: 2;
 }
 
 .header ul {
-  flex: 10;
+  flex: 1;
   display: flex;
-  gap: 6px;
+  gap: 10px;
 }
 
 ul li {
   flex: 1;
   min-width: fit-content;
-  padding: 3px;
 }
 
 .logo {
-  flex: 10;
+  flex: 1;
+  min-width: fit-content;
 }
 
 .hero {
