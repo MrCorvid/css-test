@@ -155,7 +155,7 @@ ul li {
   display: flex;
   flex-direction: column;
   flex: 0 1 auto;
-  width: 400px;
+  max-width: 400px;
   gap: 16px;
 }
 
@@ -192,9 +192,6 @@ ul li {
 .info-header {
   flex: 1;
   margin: min(5%, 32px) min(1%, 32px) min(5%, 32px) min(1%, 32px);
-}
-
-.info-header div {
 }
 
 .info-cards {
