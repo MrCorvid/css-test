@@ -31,7 +31,7 @@ a {
 FONTS
 */
 
-.main-text { 
+.main-text {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
@@ -63,7 +63,7 @@ FONTS
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
-  color:#1F2937;
+  color: #1F2937;
 }
 
 .quote-attr {
@@ -94,7 +94,7 @@ BACKGROUND COLORS
 }
 
 .coa-card-bg {
-    background-color: #3882f6;
+  background-color: #3882f6;
 }
 
 .footer-bg {
@@ -122,6 +122,7 @@ BACKGROUND COLORS
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 15px;
 }
 
 .header {
@@ -238,7 +239,7 @@ ul li {
   padding-left: 15px;
 }
 
-.quote-attr{
+.quote-attr {
   margin-left: auto;
   padding-right: 32px;
 }
@@ -278,7 +279,7 @@ ul li {
 
 .footer {
   height: 48px;
-  flex:none;
+  flex: none;
   display: flex;
   justify-content: center;
   align-items: center;
