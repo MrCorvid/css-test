@@ -129,20 +129,27 @@ BACKGROUND COLORS
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px;
+  margin: 16px 0px 16px 0px;
+}
+
+.spacer {
+  flex: 1;
 }
 
 .header ul {
+  flex: 10;
   display: flex;
-  gap: 16px;
+  gap: 6px;
 }
 
 ul li {
-  flex: none;
+  flex: 1;
+  min-width: fit-content;
+  padding: 3px;
 }
 
 .logo {
-  flex: none;
+  flex: 10;
 }
 
 .hero {
