@@ -1,6 +1,4 @@
-* {
-  border: 1px solid red;
-} /**/
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body {
   display: flex;
@@ -10,6 +8,8 @@ body {
   border: 0;
   padding: 0;
   margin: 0;
+
+  font-family: 'Muli', sans-serif;
 }
 
 ul {
@@ -74,11 +74,11 @@ FONTS
 }
 
 .button-one {
-
+  font-weight: bold;
 }
 
 .button-two {
-  
+  font-weight: bold;
 }
 
 
@@ -112,32 +112,30 @@ BACKGROUND COLORS
 
 .spacer-outer {
   display: flex;
-  justify-content: space-between;
-}
-
-.spacer {
-  flex: 1;
-  max-width: 150px;
+  justify-content: center;
 }
 
 
 .hero-header {
   flex: 1 1 auto;
   min-width: 100px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-right: 150px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 15px;
 }
 
 .header ul {
   display: flex;
   gap: 16px;
+  padding-left: 30px;
 }
 
 ul li {
@@ -151,7 +149,8 @@ ul li {
 .hero {
   display: flex;
   justify-content: flex-start;
-  height: 200px;
+  align-items: center;
+  height: 350px;
 }
 
 .left {
@@ -159,6 +158,7 @@ ul li {
   flex-direction: column;
   flex: 3 0 auto;
   max-width: 400px;
+  gap: 16px;
 }
 
 .left .title {
@@ -172,17 +172,26 @@ ul li {
 .left button {
   max-width: fit-content;
   flex: none;
+
+  border: 1px none;
+  border-radius: 6px;
+  padding: 5px 20px 5px 20px;
+
+  margin: 10px;
 }
 
 .right {
   flex: 2;
-  height: 200px;
+  height: 350px;
+  
 }
 
 .right img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 1px none;
+  border-radius: 12px 12px 0 0;
 }
 
 .info {
@@ -193,9 +202,13 @@ ul li {
 }
 
 .info-header {
-  margin: min(5%, 32px);
+  display: flex;
+  margin: min(5%, 32px) min(2%, 32px) min(5%, 32px) min(2%, 32px);
+}
+
+.info-header div {
   flex: none;
-  width: fit-content;
+  min-width: 400px;
 }
 
 .info-cards {
@@ -217,6 +230,8 @@ ul li {
   height: 200px;
   width: 200px;
   object-fit: cover;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
 }
 
 .card div {
@@ -229,7 +244,9 @@ ul li {
   justify-content: center;
   align-items: center;
   max-width: 850px;
-  padding: min(5%, 32px);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 15px;
 }
 
 .quote-attr{
@@ -238,26 +255,41 @@ ul li {
 }
 
 .coa {
+  flex: 1 1 auto;
+  min-width: 100px;
+  max-width: 1000px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .coa-card {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  height: 96px;
-  flex: auto;
-  margin: 75px;
+  padding: 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: 1px solid #3882f6;
+  border-radius: 6px;
 }
 
 .coa-left {
-  display: flex;
-  flex-direction: column;
+
+}
+
+.coa-left div {
 }
 
 .coa-right {
+  flex: none;
+  margin-left: 2px;
+}
 
+.coa-right button {
+  border: 2px solid #F9FAF8;
+  border-radius: 6px;
+  padding: 5px 20px 5px 20px;
 }
 
 .footer {
