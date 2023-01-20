@@ -52,6 +52,7 @@ FONTS
   color: #1F2937;
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 .info-card-text {
@@ -117,7 +118,6 @@ BACKGROUND COLORS
 
 .hero-header {
   flex: 1 1 auto;
-  min-width: 100px;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,6 @@ BACKGROUND COLORS
 .header ul {
   display: flex;
   gap: 16px;
-  padding-left: 30px;
 }
 
 ul li {
@@ -150,14 +149,13 @@ ul li {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 350px;
 }
 
 .left {
   display: flex;
   flex-direction: column;
-  flex: 3 0 auto;
-  max-width: 400px;
+  flex: 0 1 auto;
+  width: 400px;
   gap: 16px;
 }
 
@@ -192,13 +190,11 @@ ul li {
 }
 
 .info-header {
-  display: flex;
-  margin: min(5%, 32px) min(2%, 32px) min(5%, 32px) min(2%, 32px);
+  flex: 1;
+  margin: min(5%, 32px) min(1%, 32px) min(5%, 32px) min(1%, 32px);
 }
 
 .info-header div {
-  flex: none;
-  min-width: 400px;
 }
 
 .info-cards {
@@ -211,13 +207,12 @@ ul li {
 }
 
 .card {
-  flex: none;
-  width: 200px;
+  width: min(30vw, 200px);
 }
 
 .card img {
-  height: 200px;
-  width: 200px;
+  height: min(30vw, 200px);
+  width: min(30vw, 200px);
   object-fit: cover;
   border: 3px solid #3882f6;
   border-radius: 12px;
@@ -247,7 +242,6 @@ ul li {
 
 .coa {
   flex: 1 1 auto;
-  min-width: 100px;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
