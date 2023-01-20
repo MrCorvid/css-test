@@ -8,7 +8,6 @@ body {
   border: 0;
   padding: 0;
   margin: 0;
-
   font-family: 'Muli', sans-serif;
 }
 
@@ -161,29 +160,18 @@ ul li {
   gap: 16px;
 }
 
-.left .title {
-  
-}
-
-.left .body {
-  
-}
-
 .left button {
   max-width: fit-content;
   flex: none;
-
   border: 1px none;
   border-radius: 6px;
   padding: 5px 20px 5px 20px;
-
   margin: 10px;
 }
 
 .right {
   flex: 2;
   height: 350px;
-  
 }
 
 .right img {
@@ -193,6 +181,7 @@ ul li {
   border: 1px none;
   border-radius: 12px 12px 0 0;
 }
+
 
 .info {
   display: flex;
@@ -223,7 +212,6 @@ ul li {
 .card {
   flex: none;
   width: 200px;
-  
 }
 
 .card img {
@@ -237,6 +225,7 @@ ul li {
 .card div {
   height: 100px;
 }
+
 
 .quote-body {
   display: flex;
@@ -253,6 +242,7 @@ ul li {
   margin-left: auto;
   padding-right: 32px;
 }
+
 
 .coa {
   flex: 1 1 auto;
@@ -274,13 +264,6 @@ ul li {
   border-radius: 6px;
 }
 
-.coa-left {
-
-}
-
-.coa-left div {
-}
-
 .coa-right {
   flex: none;
   margin-left: 2px;
@@ -291,6 +274,7 @@ ul li {
   border-radius: 6px;
   padding: 5px 20px 5px 20px;
 }
+
 
 .footer {
   height: 48px;
