@@ -141,9 +141,10 @@ BACKGROUND COLORS
 }
 
 .header ul {
-  flex: 1;
+  flex: 10;
   display: flex;
   gap: 10px;
+  margin: 0px 8px 0px 8px;
 }
 
 ul li {
